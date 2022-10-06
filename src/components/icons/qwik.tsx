@@ -31,3 +31,6 @@ fill="#000000" stroke="none">
 </g>
 </svg>
 );
+export const jobsBackground = () => (
+  
+)

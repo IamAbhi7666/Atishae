@@ -1,5 +1,4 @@
 import { component$, useStore, useStylesScoped$ } from '@builder.io/qwik';
-import { QwikLogo } from '../icons/qwik';
 import styles from './header.css?inline';
 
 export default component$(() => {
@@ -13,13 +12,13 @@ export default component$(() => {
                 <img src="src/components/images/logo.png" alt="Logo" class="center"/>
                 <ul class="flex flex-row my-8">
                   <li class="pr-4 hover:text-blue-500">
-                    <a href="/" target="_self" class="font-sans text-lg"> 
+                    <a href="/about" target="_self" class="font-sans text-lg"> 
                       About
                     </a>
                   </li>
 
                     <li class="px-4 hover:text-blue-500">
-                      <a href="/" target="_self" class="font-sans text-lg">
+                      <a href="/jobs" target="_self" class="font-sans text-lg">
                         Jobs
                       </a>
                     </li>
@@ -31,7 +30,7 @@ export default component$(() => {
                   </li>
 
                   <li class="px-4 hover:text-blue-500">
-                    <a href="/" target="_self" class="font-sans text-lg">
+                    <a href="/contact" target="_self" class="font-sans text-lg">
                       Contact
                     </a>
                   </li>
@@ -45,7 +44,7 @@ export default component$(() => {
                     <a href="serviceNav.tsx" class="text-2xl font-sans">Services</a>
                   </li>
                   <li class="px-4 hover:text-blue-500">
-                    <a href="/" class="text-2xl font-sans">Out Work</a>
+                    <a href="/" class="text-2xl font-sans">Our Work</a>
                   </li>
                 </ul>
               </div>

@@ -7,9 +7,10 @@ import Header from '../components/header/header';
 export default component$(() => {
   return (
     <>
-      <main>
         <Header />
         <Footer/>
+      <main>
+          <Slot/>
       </main>
       <footer>
         <Mainfooter/>

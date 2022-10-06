@@ -29,7 +29,7 @@ export default component$(()=>{
                                 <br/>
                                 <h2 class="pb-3 text-2xl text-gray-300 my-2">We collaborate with ambitious brands and people; we’d <br /> love to build something great together.</h2>
                                 <div class="contfootbtn">	    									
-                                    <button class="ease-in-out bg-blue-500 hover:bg-white hover:text-black rounded-full px-10 py-2"><a href="#">Write to us</a></button>
+                                    <button class="ease-in-out bg-blue-500 hover:bg-white hover:text-blue-500 rounded-full px-10 py-2"><a href="#">Write to us</a></button>
                                 </div>
                             </div>
                             <div class="col-12 ">

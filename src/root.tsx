@@ -17,8 +17,8 @@ export default component$(() => {
       <head>
         <meta charSet="utf-8" />
         <script src="https://cdn.tailwindcss.com"></script>
-        
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossOrigin="anonymous"></link>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.7.1/css/all.min.css" integrity="sha512-3M00D/rn8n+2ZVXBO9Hib0GKNpkm8MSUU/e2VNthDyBYxKWG+BftNYYcuEjXlyrSO637tidzMBXfE7sQm0INUg==" crossOrigin="anonymous" referrerPolicy="no-referrer" />
         <link rel="stylesheet" href="input.css" />
         <RouterHead />
       </head>

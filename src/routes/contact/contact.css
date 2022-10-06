@@ -1,0 +1,47 @@
+.contoffice{
+        background: linear-gradient(45deg, #391335 0%,#040d36 67%,#391335 100%);
+        height: 100%;
+}
+.contoffice p {
+        color: #959595;
+}
+.contoffice aside a {
+        color: #2093d1;
+}
+.contoffice aside a:hover {
+        color: #959595;
+}
+
+.contcar-bg {
+        background: url(src/components/images/bg-3.jpg);
+        width: 100%;
+        background-size: cover;
+}
+.career-tab {
+        border-top: 1px solid #d0d0d0;
+        border-bottom: 1px solid #d0d0d0;
+        padding: 18px 0;
+}
+.career-tab a {
+        color: #232323;
+}
+.career-tab a:hover {
+        color: #2093d1;
+}
+.career-tab h4 {
+        display: inline-block;
+        font-family: 'GilroyBold';
+        font-size: 20px;
+        color: #232323;
+}
+.career-tab .fa-map-marker{
+        color: #040d36;
+}
+.fa {
+        display: inline-block;
+        font: normal normal normal 14px/1 FontAwesome;
+        font-size: inherit;
+        text-rendering: auto;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+}
