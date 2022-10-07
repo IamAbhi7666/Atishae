@@ -1,7 +1,25 @@
+<<<<<<< Updated upstream
 .contoffice{
         background: linear-gradient(45deg, #391335 0%,#040d36 67%,#391335 100%);
         height: 100%;
 }
+=======
+
+.contoffice, .header{
+        background: linear-gradient(45deg, #391335 0%,#040d36 67%,#391335 100%);
+        height: 100vh;
+}
+
+.heroImg2{
+        background-image: url(src/components/images/contact-head.png);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        padding:    198px 0 172px;
+        height: 100%;
+}
+
+>>>>>>> Stashed changes
 .contoffice p {
         color: #959595;
 }
@@ -34,14 +52,68 @@
         font-size: 20px;
         color: #232323;
 }
+<<<<<<< Updated upstream
 .career-tab .fa-map-marker{
         color: #040d36;
 }
 .fa {
         display: inline-block;
         font: normal normal normal 14px/1 FontAwesome;
+=======
+.fa-map-marker{
+        color: #1B98E0;
+}
+.a {   
+        display: inline-block;
+        font: normal normal normal 14px/1 FontAwesome ;
+>>>>>>> Stashed changes
         font-size: inherit;
         text-rendering: auto;
         -webkit-font-smoothing: antialiased;
         -moz-osx-font-smoothing: grayscale;
+<<<<<<< Updated upstream
 }
+=======
+}
+
+
+@keyframes fadeInUp {
+        from {
+            transform: translate3d(0,40px,0)
+        }
+    
+        to {
+            transform: translate3d(0,0,0);
+            opacity: 1
+        }
+    }
+    
+    @-webkit-keyframes fadeInUp {
+        from {
+            transform: translate3d(0,40px,0)
+        }
+    
+        to {
+            transform: translate3d(0,0,0);
+            opacity: 1
+        }
+    }
+    
+    .animated {
+        animation-duration: 2s;
+        animation-fill-mode: both;
+        -webkit-animation-duration: 2s;
+        -webkit-animation-fill-mode: both
+    }
+    
+    .animatedFadeInUp {
+        opacity: 0
+    }
+    
+    .fadeInUp {
+        opacity: 0;
+        animation-name: fadeInUp;
+        -webkit-animation-name: fadeInUp;
+    }
+    
+>>>>>>> Stashed changes

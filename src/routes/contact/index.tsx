@@ -6,6 +6,23 @@ export default component$(()=>{
 
     return (
         <>
+<<<<<<< Updated upstream
+=======
+            <header class="header">
+                <section class="heroImg2">
+                    <div class="container mx-auto">
+                        <div class="row">
+                            <div class="col-6">
+                                <p class="animated animatedFadeInUp fadeInUp mb-5 text-[33px] text-gray-300">
+                                        <strong class="text-[44px]  text-white">We would love to hear from you!</strong><br />
+                                        Your questions and comments are important to us. Let's make something awesome together
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </header>
+>>>>>>> Stashed changes
             <section class="ml-section-2">
                 <div class="container-fluid">
                     <div class="row">
@@ -109,11 +126,19 @@ export default component$(()=>{
                                         <div class="row career-tab">
                                             <div class="col-6 font-bold">
                                                 <a href="#">+
+<<<<<<< Updated upstream
                                                 <h4 class="mb-[8px]">Angular Developers</h4></a>
+=======
+                                                <h4 class="mb-[8px]">&nbsp;Angular Developers</h4></a>
+>>>>>>> Stashed changes
                                             </div>
                                             <div class="col-6 font-light text-right mb-4">
                                                 <aside>
                                                     <i class="fa fa-map-marker px-[10px] align-middle" aria-hidden="true"></i>
+<<<<<<< Updated upstream
+=======
+                                                    <i class="fa-solid fa-location-dot"></i>
+>>>>>>> Stashed changes
                                                     <p class="mb-[16px] inline-block">Surat</p>
                                                 </aside>
                                             </div>
@@ -121,7 +146,11 @@ export default component$(()=>{
                                         <div class="row career-tab">
                                             <div class="col-6 font-bold">
                                                 <a href="#">+
+<<<<<<< Updated upstream
                                                 <h4 class="mb-[8px]">Java Developers</h4></a>
+=======
+                                                <h4 class="mb-[8px]">&nbsp;Java Developers</h4></a>
+>>>>>>> Stashed changes
                                             </div>
                                             <div class="col-6 font-light text-right mb-4">
                                                 <aside>
@@ -133,7 +162,11 @@ export default component$(()=>{
                                         <div class="row career-tab">
                                             <div class="col-6 font-bold">
                                                 <a href="#">+
+<<<<<<< Updated upstream
                                                 <h4 class="mb-[8px]">QA Engineers</h4></a>
+=======
+                                                <h4 class="mb-[8px]">&nbsp;QA Engineers</h4></a>
+>>>>>>> Stashed changes
                                             </div>
                                             <div class="col-6 font-light text-right mb-4">
                                                 <aside>
@@ -145,7 +178,11 @@ export default component$(()=>{
                                         <div class="row career-tab">
                                             <div class="col-6 font-bold">
                                                 <a href="#">+
+<<<<<<< Updated upstream
                                                 <h4 class="mb-[8px]">Project Managers</h4></a>
+=======
+                                                <h4 class="mb-[8px]">&nbsp;Project Managers</h4></a>
+>>>>>>> Stashed changes
                                             </div>
                                             <div class="col-6 font-light text-right mb-4">
                                                 <aside>

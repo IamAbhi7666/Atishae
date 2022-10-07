@@ -1,0 +1,142 @@
+.header{
+    background: linear-gradient(45deg, #391335 0%,#040d36 67%,#391335 100%);
+    height: 100vh;
+}
+
+.heroImg2{
+    background-image: url(src/components/images/service-head.png);
+    background-size: cover;
+    background-position: center center;
+
+    background-repeat: no-repeat;
+    padding:    198px 0 172px;
+    height: 100%;
+}
+
+@keyframes fadeInUp {
+    from {
+        transform: translate3d(0,40px,0)
+    }
+
+    to {
+        transform: translate3d(0,0,0);
+        opacity: 1
+    }
+}
+
+@-webkit-keyframes fadeInUp {
+    from {
+        transform: translate3d(0,40px,0)
+    }
+
+    to {
+        transform: translate3d(0,0,0);
+        opacity: 1
+    }
+}
+
+.animated {
+    animation-duration: 2s;
+    animation-fill-mode: both;
+    -webkit-animation-duration: 2s;
+    -webkit-animation-fill-mode: both
+}
+
+.animatedFadeInUp {
+    opacity: 0
+}
+
+.fadeInUp {
+    opacity: 0;
+    animation-name: fadeInUp;
+    -webkit-animation-name: fadeInUp;
+}
+
+
+
+
+
+.ml-section-2 .card {
+    border: 1px solid rgba(0,0,0,.125);
+}
+.ml-section-2 a:hover .card.h-100 {
+    border: 1px solid #2092d1;
+}
+.card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border-radius: 0.25rem;
+}
+.ml-section-2 h4.card-title {
+    color: #232323;
+    font-size: 24px;
+    font-family: 'GilroyBold';
+}
+.h-100 {
+    height: 100%!important;
+}
+.ml-section-2 h4.card-title {
+    color: #232323;
+    font-size: 24px;
+    font-family: 'GilroyBold';
+}
+.card-title {
+    margin-bottom: 0.75rem;
+}
+.ml-section-2 p.card-text {
+    color: #9b9b9b;
+    font-size: 20px;
+    font-family: 'GilroyMedium';
+    line-height: 30px;
+}
+.ml-section-border {
+    border-bottom: 4px solid #1ea0e8;
+}
+
+
+
+
+.about-section-4 {
+    background: #ffffff;
+    width: 100%;
+    float: left;
+    border-bottom: 4px solid #1ea0e8;
+}
+.home-section-6 {
+    background: #ffffff;
+    background-position: bottom;
+    position: relative;
+    border-bottom: 4px solid #1ea0e8;
+    background-repeat: repeat-y;
+}
+.home-section-6 .col-6 div {
+    background: #f8f8f8;
+    text-align: center;
+    border-radius: 10px;
+}
+.home-section-6 h1 {
+    font-family: 'GilroyBold';
+    font-size: 44px;
+    color: #232323;
+}
+.home-section-6 .col-6 div img {
+    margin-bottom: 20px;
+    width: 65%;
+}
+img {
+    max-width: 100%;
+    display: inline-block;
+}
+img {
+    vertical-align: middle;
+    border-style: none;
+}
+.home-section-6 .col-6 div p {
+    margin-bottom: 0;
+    color: #232323;
+}

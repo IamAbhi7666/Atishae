@@ -6,6 +6,23 @@ export default component$(()=>{
 
     return (
         <>
+<<<<<<< Updated upstream
+=======
+            <header class="header">
+                <section class="heroImg2">
+                    <div class="container mx-auto">
+                        <div class="row">
+                            <div class="col-6">
+                                <p class="animated animatedFadeInUp fadeInUp mb-5 text-[33px] text-gray-300">
+                                        <strong class="text-[44px]  text-white">We make the complex, simple!</strong><br />
+                                        In today's rapidly evolving technology world, clients engage us to help them make the best use of the latest technology in their enterprises!
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </header>
+>>>>>>> Stashed changes
             <section class="about-section-2">
                 <div class="container-fluid">
                     <div class="row">

@@ -8,9 +8,14 @@ export default component$(() => {
   return (
     <>
         <Header />
+<<<<<<< Updated upstream
         <Footer/>
       <main>
           <Slot/>
+=======
+      <main>
+        <Slot/>
+>>>>>>> Stashed changes
       </main>
       <footer>
         <Mainfooter/>

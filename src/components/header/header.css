@@ -2,7 +2,7 @@
   background-image: url(../images/menu-bg.jpg);
   background-repeat: no-repeat;
   height: 140px;
-  position: fixed;
+  position: sticky;
   top: 0;
   left: 0;
   width: 100%;
@@ -44,4 +44,8 @@
 }
 .mb-5 {
   margin-bottom: 3rem!important;
+}
+
+header .sticky{
+  background: rgba(255,255,255,0.5);
 }

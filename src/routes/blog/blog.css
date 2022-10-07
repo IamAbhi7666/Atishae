@@ -1,0 +1,65 @@
+.about-header{
+    background: linear-gradient(45deg, #391335 0%,#040d36 67%,#391335 100%);
+    height: 100%;
+}
+.about-header .blog-bg {
+    background: url(src/components/images/om-metals-main.png);
+    width: 100%;
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+    float: left;
+    padding: 200px 0;
+}
+
+.por-section-2 {
+    width: 100%;
+    position: relative;
+    float: left;
+    background: #f8f8f8;
+    border-bottom: 4px solid #1ea0e8;
+}
+.por-section-2 .card {
+    border: none;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+@keyframes fadeInUp {
+    from {
+        transform: translate3d(0,40px,0)
+    }
+
+    to {
+        transform: translate3d(0,0,0);
+        opacity: 1
+    }
+}
+
+@-webkit-keyframes fadeInUp {
+    from {
+        transform: translate3d(0,40px,0)
+    }
+
+    to {
+        transform: translate3d(0,0,0);
+        opacity: 1
+    }
+}
+
+.animated {
+    animation-duration: 2s;
+    animation-fill-mode: both;
+    -webkit-animation-duration: 2s;
+    -webkit-animation-fill-mode: both
+}
+
+.animatedFadeInUp {
+    opacity: 0
+}
+
+.fadeInUp {
+    opacity: 0;
+    animation-name: fadeInUp;
+    -webkit-animation-name: fadeInUp;
+}
